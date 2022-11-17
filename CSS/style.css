@@ -8,7 +8,6 @@ body {
 nav {
     width: 100%;
     display: flex;
-    justify-content: space-between;
 }
 
 nav ul {
@@ -83,11 +82,11 @@ nav li:hover .sous_menu {
 .menu_catalogue:hover,
 .menu_formules:hover,
 .menu_contactez:hover {
-    border-top: 5px solid orange;
+    border-top: 5px solid rgb(0, 0, 0);
 }
 
 .menu_formules .sous_menu {
-    background-color: orange;
+    background-color: rgb(0, 0, 0);
 }
 
 .sous_menu li:hover a {
@@ -95,7 +94,7 @@ nav li:hover .sous_menu {
     font-size: 20px;
 }
 .menu_formules .sous_menu li:hover {
-    background-color: rgb(255, 196, 87);
+    background-color: rgb(35, 35, 35);
 }
 
 .footer {
